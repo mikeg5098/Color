@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     @IBOutlet var mainView: UIView!
     
     
+    @IBAction func greenButton(_ sender: AnyObject) {
+        self.mainView.backgroundColor = .green
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
